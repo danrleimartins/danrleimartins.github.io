@@ -14,16 +14,12 @@ h1 {
   font-size: 3rem;
   color: #e2dbdb;
   text-align: center;
+  transition: all 1s;
 
 }
 
-h2 {
-  font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
-  color: #e2dbdb;
-  text-align: center;
-  font-weight: lighter;
-  padding-bottom: 15px;
+h1:hover {
+  transform: scale(0.9);
 }
 
 hr {
